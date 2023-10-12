@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: gray;
+}
+
+.canvas {
+    height: 600px;
+    min-width: 600px;
+    /* width: 60%; */
+    max-width: 800px;
+
+    /* Si el color rojo se muestra en el canvas, sabemos que hay un error con la transparencias */
+    background-color: rgb(150, 16, 16);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+    width: 110px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
